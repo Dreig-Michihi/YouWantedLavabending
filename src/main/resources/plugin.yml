@@ -1,0 +1,8 @@
+name: YouWantedLavabending
+version: '${project.version}'
+main: me.dreig_michihi.youwantedlavabending.YouWantedLavabending
+author: Dreig_Michihi
+prefix: '${project.name}'
+depend: [ ProjectKorra ]
+description: Fool your players, it's 1st april!
+api-version: 1.16
