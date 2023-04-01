@@ -89,7 +89,7 @@ public final class YouWantedLavabending extends JavaPlugin {
 
 		@EventHandler
 		public void onBendingReload(BendingReloadEvent event) {
-			Bukkit.getScheduler().runTask(plugin, () -> YouWantedLavabending.plugin.onDisable());
+			YouWantedLavabending.plugin.onDisable();
 			Bukkit.getScheduler().runTask(plugin, () -> YouWantedLavabending.plugin.onEnable());
 		}
 	}
